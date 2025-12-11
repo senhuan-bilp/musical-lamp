@@ -1,0 +1,451 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* 导航栏 */
+    .Aa {
+        height: 52px;
+        background-color: #333;
+    }
+
+    .Aa .a1 {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .Aa .a1 ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 52px;
+    }
+    .Aa .a1 ul li a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        height: 14px;
+        line-height: 14px;
+        font-size: 14px;
+    }
+    .Aa .a1 ul li a:hover {
+        color: #5EB69C;
+    }
+    .Aa .a1 ul li.line {
+        height: 12px;
+        width: 1px;
+        background-color: #999;
+        margin: 0 15px;
+    }
+    /* 头部 */
+    /* 小兔鲜儿图片 */
+    .BB {
+        height: 132px;
+
+    }
+    .BB .Bb {
+        width: 1200px;
+        height: 132px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .BB .Bb .b1 {
+        width: 200px;
+        height: 88px;
+    }
+    .BB .Bb .b1 a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(../img/img/LOGO.PNG) no-repeat;
+        text-indent: -9999px;
+        overflow: hidden;
+    }
+    /* 导航栏 */
+    .BB .Bb .b2 ul {
+        display: flex;
+        /* gap: 20px; */
+    }
+    .BB .Bb .b2 ul li a {
+        display: block;
+        text-decoration: none;
+        height: 40px;
+        width: 50px;
+        /* line-height: 40px; */
+        text-align: center;
+       margin-top: 12px;
+       margin-left: 15px;
+        color: #333
+    }
+    .BB .Bb .b2 ul li a:hover {
+        color: #5EB69C;
+        border-bottom: 2px solid #5EB69C;
+    }
+    /* 搜索框 */
+    .BB .Bb .b3 input {
+        width: 170px;
+        height: 40px;
+        border: 0;
+        border-bottom: 2px solid #f4f4f4;
+        padding-left: 20px;
+    }
+    .BB .Bb .b3 input::placeholder {
+        font-size: 16px;
+        color: #ccc;
+    }
+    .BB .Bb .b4 i {
+        font-size: 30px;
+    }
+    /* 底部 */
+    .footer {
+        height: 580px;
+        background-color: #f5f5f5;
+    }
+
+    .footer .Ff {
+        width: 1024px;
+
+        margin: 0 auto;
+    }
+
+    /* 服务 */
+    .footer .Ff .F1 {
+        height: 178px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .footer .Ff .F1 ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* ul的高度要和外盒子的一样 */
+        height: 178px;
+    }
+    .footer .Ff .F1 ul li {
+        display: flex;
+        align-items: center;
+    }
+    .footer .Ff .F1 ul li h5 {
+        width: 58px;
+        height: 58px;
+        background: url(../img/img/jiage.png) no-repeat -14px -6px;
+    }
+    .footer .Ff .F1 ul li .wu {
+        width: 58px;
+        height: 58px;
+        background: url(../img/img/wuliu.png) no-repeat -34px -14px;
+    }
+    .footer .Ff .F1 ul li .shou {
+        width: 58px;
+        height: 58px;
+        background: url(../img/img/shouhou.png) no-repeat -16px -17px;
+    }
+
+    .footer .Ff .F1 ul li .ping {
+        width: 58px;
+        height: 58px;
+        background: url(../img/img/pinzhi.png) no-repeat -12px -2px;
+    }
+
+    .footer .Ff .F1 ul li p {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+    /* 帮助中心 */
+    .footer .Ff .F2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .footer .Ff .F2 .left {
+        display: flex;
+        gap: 40px;
+    }
+    .footer .Ff .F2 .left dl dt {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .footer .Ff .F2 .left dl dd {
+        margin-bottom: 10px;
+    }
+    .footer .Ff .F2 .left dl dd a {
+        color: #969696;
+        text-decoration: none;
+    }
+    .footer .Ff .F2 .right ul {
+        display: flex;
+        text-align: center;
+    }
+    .footer .Ff .F2 .right ul li {
+        margin-left: 45px;
+        color: #969696;
+    }
+    /* 版权 */
+    .footer .Ff .F3 {
+        text-align: center;
+        margin-top: 100px;
+        line-height: 30px;
+        color: #A1A1A1;
+    }
+    .footer .Ff .F3 p a {
+        text-decoration: none;
+        color: #A1A1A1;
+    }
+    /* banner */
+    .CC {
+        height: 450px;
+        background-color: #f5f5f5;
+    }
+    .CC .Cc {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        background: url(../img/img/首页-自然造物\ Made\ in\ Nature-淘宝网.png) no-repeat -1px 0;
+    }
+    .CC .Cc .c1 {
+        width: 250px;
+        height: 450px;
+        background-color: rgb(0, 0, 0, .42);
+    }
+    .CC .Cc .c1 ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 0 12px 0 29px;
+        color: #fff;
+    }
+
+    .CC .Cc .c1 ul li:hover {
+        background-color: #5EB69C;
+    }
+
+    .CC .Cc .c1 ul li a {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .CC .Cc .c1 ul li a:first-child {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    /* 新鲜好物 */
+    .DD {
+        height: 450px;
+        margin-bottom: 30px;
+
+    }
+
+    .DD .Dd {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+
+    }
+
+    .DD .Dd .up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 102px;
+    }
+    .DD .Dd .up h2 {
+        font-size: 30px;
+    }
+    .DD .Dd .up h2 small {
+        font-size: 16px;
+        color: #A1A1A1;
+        margin-left: 30px;
+    }
+    .DD .Dd .up a {
+        color: #A1A1A1;
+    }
+    .DD .Dd .down ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .DD .Dd .down ul li {
+        width: 290px;
+        height: 350px;
+        background-color: #EEF9F4;
+        text-align: center;
+    }
+    .DD .Dd .down ul li img {
+        width: 290px;
+        height: 250px;
+    }
+    .DD .Dd .down ul li .title {
+        margin: 18px 0 8px;
+        font-size: 16px;
+        padding: 0 25px;
+    }
+    .DD .Dd .down ul li .price {
+        font-size: 22px;
+        color: #AA2113;
+    }
+
+    /* 热门品牌 */
+    .EE {
+        height: 450px;
+        background-color: #f5f5f5;
+    }
+    .EE .Ee {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+    }
+   .EE .Ee .up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 102px;
+    }
+    .EE .Ee .up h2 {
+        font-size: 30px;
+    }
+    .EE .Ee .up h2 small {
+        font-size: 16px;
+        color: #A1A1A1;
+        margin-left: 30px;
+    }
+    .EE .Ee .down ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .EE .Ee .down ul li {
+        width: 200px;
+        height: 350px;
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+    .EE .Ee .down ul li img {
+        width: 220px;
+        height: 300px;
+    }
+    /* 生鲜 */
+    .GG .Gg {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .GG .Gg .up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 102px;
+        padding-top: 10px;
+    }
+    .GG .Gg .up h2 {
+        font-size: 30px;
+    }
+    .GG .Gg .up .right {
+        display: flex;
+    }
+    .GG .Gg .up .right ul {
+        display: flex;
+        gap: 10px;
+    }
+    .GG .Gg .up .right .more {
+        font-size: 16px;
+        color: #A1A1A1;
+        margin-left: 30px;
+    }
+    .GG .Gg .up .right ul li a {
+        color: #333;
+    }
+    .GG .Gg .up .right ul li a:hover {
+        color: #fff;
+        background-color: #5EB69C;
+    }
+    .GG .Gg .down {
+        display: flex;
+        justify-content: space-between;
+    }
+    .GG .Gg .down .left {
+        width: 290px;
+        height: 650px;
+    }
+
+    .GG .Gg .down .right {
+        width: 968px;
+        height: 650px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .GG .Gg .down .right li {
+        width: 220px;
+        height: 320px;
+        padding: 10px 21px 0;
+    }
+    .GG .Gg .down .right li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .GG .Gg .down .right li img {
+        width: 200px;
+        height: 180px;
+    }
+    .GG .Gg .down .right li h3 {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #333;
+    }
+    .GG .Gg .down .right li p {
+        color: #333;
+    }
+    .GG .Gg .down .right li .price {
+        font-size: 22px;
+        color: #AF2F22;
+    }
+    /* 最新专题 */
+    .HH .Hh {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .HH .Hh .up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 102px;
+        padding-top: 10px;
+    }
+    .HH .Hh .up h2 {
+        font-size: 30px;
+    }
+    .HH .Hh .up .right a {
+        color: #333;
+    }
+   .HH .Hh .down ul {
+        display: flex;
+        gap: 12px;
+    }
+    .HH .Hh .down ul li {
+        flex: 1;
+        height: 355px;
+
+    }
+    .HH .Hh .down ul li img {
+        width: 390px;
+    }
+    .HH .Hh .down ul li .con {
+        height: 67px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+    }
